@@ -20,9 +20,9 @@ import expenzChartImg from '../assets/images/WhatsApp Image 2026-11-17 at 15.58.
 import expenzAddExpenseImg from '../assets/images/WhatsApp Image 2026-11-17 at 15.59.00 1.webp';
 import expenzSettingsImg from '../assets/images/WhatsApp Image 2026-11-17 at 15.59.00.webp';
 import expenzSettingsImg2 from '../assets/images/WhatsApp Image 2026-11-17 at 15.59.02 1.webp';
-import expenzSettingsImg3 from '../assets/images/WhatsApp Image 2026-11-17 at 15.59.02.webp';
+
 import expenzSettingsImg4 from '../assets/images/WhatsApp Image 2026-11-17 at 15.59.03 1.webp';
-import expenzSettingsImg5 from '../assets/images/WhatsApp Image 2026-11-17 at 15.59.03.webp';
+import expenzSettingsImg5 from '../assets/images/WhatsApp Image 2026-11-17 at 15.58.58.webp';
 
 import ecommerceArchImg from '../assets/images/project_ecommerce_arch_1794716531159.jpg';
 import devWorkspaceImg from '../assets/images/project_dev_workspace_1794716531350.jpg';
@@ -72,10 +72,10 @@ export const portfolioData: PortfolioConfig = {
 
   // Footer social links
   socialLinks: [
-    { platform: 'facebook', label: 'Facebook', url: 'https://facebook.com' },
-    { platform: 'instagram', label: 'Instagram', url: 'https://instagram.com' },
+    { platform: 'facebook', label: 'Facebook', url: 'https://www.facebook.com/share/1EnU5ZWgd4/' },
+    { platform: 'instagram', label: 'Instagram', url: 'https://www.instagram.com/pahasarahmvihara?bqrl=MXV3NXpqNHJpMHJxOA==' },
     { platform: 'github', label: 'GitHub', url: 'https://github.com/Viharapahasara' },
-    { platform: 'linkedin', label: 'LinkedIn', url: 'https://linkedin.com' },
+   /* { platform: 'linkedin', label: 'LinkedIn', url: 'https://linkedin.com' },*/
   ],
 
   // --------------------------------------------------------------------------
@@ -175,7 +175,7 @@ export const portfolioData: PortfolioConfig = {
           'Smooth local data storage and state management for offline usage',
         ],
         techStack: ['FLUTTER', 'DART', 'MOBILE'],
-        imageSrc: expenzMainImg,
+        imageSrc: expenzSettingsImg5,
         imageAlt: 'Expenz personal finance mobile application interface',
         // Multiple images list for swipeable carousel modal:
         images: [
@@ -184,13 +184,13 @@ export const portfolioData: PortfolioConfig = {
           expenzAddExpenseImg,
           expenzSettingsImg,
           expenzSettingsImg2,
-          expenzSettingsImg3,
+         
           expenzSettingsImg4,
           expenzSettingsImg5,
 
         ],
-        liveUrl: 'https://github.com/ViharaPahasara',
-        repoUrl: 'https://github.com/ViharaPahasara',
+        liveUrl: 'https://github.com/Viharapahasara/expenz-DP-flutter-Course',
+        repoUrl: 'https://github.com/Viharapahasara/expenz-DP-flutter-Course',
       },
     /*  {
         id: 'aurum-headless-commerce',
