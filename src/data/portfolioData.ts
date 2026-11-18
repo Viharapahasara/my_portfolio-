@@ -7,7 +7,7 @@ import { PortfolioConfig } from '../types/portfolio';
  * Replace these imports with your own images placed in `src/assets/images/`
  * or update the paths whenever you customize your portfolio.
  */
-import heroPortraitImg from '../assets/images/Stylized Portrait in Black Shirt.png';
+import heroPortraitImg from '../assets/images/Stylized Portrait in Black Shirt.webp';
 
 
 import macGraMainImg from '../assets/images/Screenshot 2026-11-17 120517.webp';
