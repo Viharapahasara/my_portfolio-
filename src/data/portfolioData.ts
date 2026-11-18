@@ -278,7 +278,7 @@ export const portfolioData: PortfolioConfig = {
           {
             id: 'srv-01',
             meta: '01',
-            title: 'Flutter Development',
+            title: 'App Development',
             subtitle: 'Cross-Platform Mobile Apps',
             description:
               'Cross-platform mobile applications built with clean architecture, robust state management, responsive UI design, and smooth user experiences.',
@@ -287,13 +287,13 @@ export const portfolioData: PortfolioConfig = {
           {
             id: 'srv-02',
             meta: '02',
-            title: 'AI Web Development',
+            title: 'Web Development',
             subtitle: 'React, Modern UI & Rapid Prototyping',
             description:
               'Modern, responsive web applications and rapid prototypes built using React, accelerated through AI development tools like Google Antigravity and Stitch.',
             highlights: ['React & Modern UI', 'Google Antigravity & Stitch', 'Rapid Prototyping'],
           },
-          {
+         /* {
             id: 'srv-03',
             meta: '03',
             title: 'Machine Learning',
@@ -301,7 +301,7 @@ export const portfolioData: PortfolioConfig = {
             description:
               'Practical machine learning pipelines, model evaluation, and inference workflows built as part of my ongoing study journey in AI.',
             highlights: ['Model Evaluation', 'PyTorch & Scikit-Learn', 'APIs & Integration'],
-          },
+          },*/
         ],
       },
     },
