@@ -3,6 +3,7 @@ import { ScrollProgressBar } from './components/common/ScrollReveal';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { SectionRenderer } from './components/sections/SectionRenderer';
+import { SEO } from './components/common/SEO';
 
 /**
  * Root Application Shell.
@@ -11,23 +12,27 @@ import { SectionRenderer } from './components/sections/SectionRenderer';
  */
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#1B1B1D] text-[#F3F4F6]">
-      <ScrollProgressBar />
+    <>
+      <SEO />
 
-      <Navbar
-        brand={portfolioData.brand}
-        navigation={portfolioData.navigation}
-        primaryLink={portfolioData.primaryHeaderLink}
-      />
+      <div className="min-h-screen bg-[#1B1B1D] text-[#F3F4F6]">
+        <ScrollProgressBar />
 
-      <main>
-        <SectionRenderer config={portfolioData} />
-      </main>
+        <Navbar
+          brand={portfolioData.brand}
+          navigation={portfolioData.navigation}
+          primaryLink={portfolioData.primaryHeaderLink}
+        />
 
-      <Footer
-        brand={portfolioData.brand}
-        socialLinks={portfolioData.socialLinks}
-      />
-    </div>
+        <main>
+          <SectionRenderer config={portfolioData} />
+        </main>
+
+        <Footer
+          brand={portfolioData.brand}
+          socialLinks={portfolioData.socialLinks}
+        />
+      </div>
+    </>
   );
 }
